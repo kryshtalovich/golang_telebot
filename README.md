@@ -1,7 +1,7 @@
-##Telegram bot implemented on go lang
+# Telegram bot implemented on go lang
 A simple bot that sends the first 5 YouTube videos upon a user query.
 
-##Instruction
+## Instruction
 1. [Go to.](https://console.developers.google.com/project/)
 2. Click Create Project button.
 3. [Go to](https://console.developers.google.com/apis/api/youtube.googleapis.com/credentials) and copy Api key.
@@ -10,5 +10,7 @@ A simple bot that sends the first 5 YouTube videos upon a user query.
 6. Choose a name and username for your bot.
 7. Copy and paste token to `TelegramToken` in `main.go`.
 8. In your project directory run `go build .` and `./golang_telebot`.
-9. ![Bot is work!](https://ibb.co/cbkg2LS)
+9. Bot is work!
+
+![Bot is work!](http://images.vfl.ru/ii/1605967202/96b0db1b/32388010_m.jpg)
 
