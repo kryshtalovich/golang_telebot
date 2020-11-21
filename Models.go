@@ -11,7 +11,8 @@ type Message struct {
 }
 
 type Chat struct {
-	ChatId int `json:"id"`
+	ChatId    int    `json:"id"`
+	FirstName string `json:"first_name"`
 }
 
 type RestResponse struct {
@@ -21,4 +22,16 @@ type RestResponse struct {
 type BotMessage struct {
 	ChatId int    `json:"chat_id"`
 	Text   string `json:"text"`
+}
+
+type RestYoutubeResponse struct {
+	Items []Item `json:"items"`
+}
+
+type Item struct {
+	Id ItemInfo `json:"id"`
+}
+
+type ItemInfo struct {
+	VideoId string `json:"videoId"`
 }
